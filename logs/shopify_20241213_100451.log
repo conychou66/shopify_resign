@@ -1,0 +1,6 @@
+2024-12-13 10:04:51,100 - INFO - 程序启动
+2024-12-13 10:04:56,940 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:04:56,941 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:05:00,020 - ERROR - API响应格式不正确: {'code': 0, 'msg': 'success', 'data': {'ws': {'puppeteer': 'ws://127.0.0.1:53135/devtools/browser/1da3f868-6524-433e-8c60-ee7b8fb8e038', 'selenium': '127.0.0.1:53135'}, 'debug_port': '53135', 'webdriver': 'C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe'}}
+2024-12-13 10:05:00,023 - INFO - 浏览器 kr47af7 已经关闭
+2024-12-13 10:05:00,025 - INFO - 任务完成

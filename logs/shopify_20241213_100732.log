@@ -1,0 +1,14 @@
+2024-12-13 10:07:32,410 - INFO - 程序启动
+2024-12-13 10:07:37,304 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:07:37,305 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:07:40,379 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "http://127.0.0.1:53394",
+  "debug_port": "53394",
+  "user_id": "kr47af7",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "puppeteer_ws": "ws://127.0.0.1:53394/devtools/browser/b264357c-d590-4525-9f2a-0046c68f913c"
+}
+2024-12-13 10:07:40,387 - ERROR - 连接到浏览器失败: object of type 'int' has no len()
+2024-12-13 10:07:40,388 - ERROR - selenium_address: http://127.0.0.1:53394
+2024-12-13 10:07:40,389 - INFO - 浏览器 kr47af7 已经关闭
+2024-12-13 10:07:40,391 - INFO - 任务完成

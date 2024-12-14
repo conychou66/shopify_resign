@@ -1,0 +1,97 @@
+2024-12-15 01:27:01,789 - INFO - 开始执行自动化流程...
+2024-12-15 01:27:01,981 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 01:27:02,076 - INFO - 正在启动浏览器: test002 (ID: kr71741)
+2024-12-15 01:27:06,306 - INFO - 成功创建WebDriver实例
+2024-12-15 01:27:06,307 - INFO - 开始Gmail登录流程...
+2024-12-15 01:27:14,731 - INFO - 正在输入邮箱...
+2024-12-15 01:27:18,246 - INFO - 等待密码输入页面...
+2024-12-15 01:27:20,314 - INFO - 正在输入密码...
+2024-12-15 01:27:30,055 - INFO - 开始第1次页面状态检测...
+2024-12-15 01:27:34,222 - INFO - 检测到辅助邮箱确认选项: //div[contains(@class, 'l5PPKe') and contains(text(), 'Confirm your recovery email')]
+2024-12-15 01:27:34,224 - INFO - 检测到'Verify it's you'页面，点击'Confirm your recovery email'...
+2024-12-15 01:27:34,317 - INFO - 成功点击'Confirm your recovery email' (使用选择器: //div[contains(@class, 'l5PPKe') and contains(text(), 'Confirm your recovery email')])
+2024-12-15 01:27:36,319 - INFO - 等待1秒后进行下一次检测...
+2024-12-15 01:27:37,320 - INFO - 开始第2次页面状态检测...
+2024-12-15 01:27:47,596 - INFO - 检测到辅助邮箱输入框，准备输入辅助邮箱...
+2024-12-15 01:29:28,021 - ERROR - 输入辅助邮箱失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF77495E169]
+	(No symbol) [0x00007FF77495E52C]
+	(No symbol) [0x00007FF7749AB4C7]
+	(No symbol) [0x00007FF77498686F]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 01:29:28,023 - INFO - 开始第3次页面状态检测...
+2024-12-15 01:29:38,485 - INFO - 检测到辅助邮箱输入框，准备输入辅助邮箱...
+2024-12-15 01:30:16,835 - ERROR - 输入辅助邮箱失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 01:30:16,837 - ERROR - 所有检测尝试都失败
+2024-12-15 01:30:16,839 - ERROR - 处理失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+

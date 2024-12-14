@@ -1,0 +1,9 @@
+2024-12-13 08:45:11,817 - INFO - 程序启动
+2024-12-13 08:45:19,853 - ERROR - 处理商店出错
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 38, in run
+    register = ShopifyRegister()
+TypeError: ShopifyRegister.__init__() missing 1 required positional argument: 'driver'
+2024-12-13 08:45:19,853 - INFO - 开始处理商店: Store_0
+2024-12-13 08:45:19,855 - INFO - 处理商店时出错: ShopifyRegister.__init__() missing 1 required positional argument: 'driver'
+2024-12-13 08:45:19,856 - INFO - 任务完成

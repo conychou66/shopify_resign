@@ -1,0 +1,68 @@
+2024-12-13 11:57:14,834 - INFO - 程序启动
+2024-12-13 11:57:19,049 - INFO - 正在启动浏览器: test001 (ID: kr4fpy8)
+2024-12-13 11:57:21,916 - INFO - 开始Google账号登录...
+2024-12-13 11:57:30,230 - INFO - 正在输入邮箱...
+2024-12-13 11:57:36,832 - INFO - 正在输入密码...
+2024-12-13 11:57:36,870 - ERROR - 粘贴文本失败: Message: element not interactable
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BD4D]
+	(No symbol) [0x00007FF774954DDC]
+	(No symbol) [0x00007FF77498682A]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF774951B77]
+	(No symbol) [0x00007FF774986A40]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-13 11:57:36,873 - ERROR - Google登录失败: Message: element not interactable
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BD4D]
+	(No symbol) [0x00007FF774954DDC]
+	(No symbol) [0x00007FF77498682A]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF774951B77]
+	(No symbol) [0x00007FF774986A40]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-13 11:57:38,902 - ERROR - Google账号登录失败
+2024-12-13 11:57:38,904 - INFO - 商店 Handle Financial, Inc. 注册失败
+2024-12-13 11:57:42,911 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCB9C31F30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d4761baefc7bff8815ff84e2829714fc
+2024-12-13 11:57:46,918 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCB9C32520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d4761baefc7bff8815ff84e2829714fc
+2024-12-13 11:57:50,923 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCB9C439B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d4761baefc7bff8815ff84e2829714fc

@@ -1,0 +1,17 @@
+# HTTP请求库
+requests>=2.31.0
+
+# Excel处理
+openpyxl>=3.1.2
+pandas>=2.1.0
+
+# UI界面
+PyQt5>=5.15.9
+
+# 浏览器自动化
+selenium>=4.11.2
+undetected-chromedriver>=3.5.3
+
+# 工具库
+python-dotenv>=1.0.0
+pyyaml>=6.0.1

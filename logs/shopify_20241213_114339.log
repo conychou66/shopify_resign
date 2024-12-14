@@ -1,0 +1,15 @@
+2024-12-13 11:43:39,709 - INFO - 程序启动
+2024-12-13 11:44:01,629 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:44:01,741 - INFO - 浏览器 kr4f5wg 状态: 未运行
+2024-12-13 11:44:01,742 - INFO - 正在启动浏览器，user_id: kr4f5wg
+2024-12-13 11:44:01,743 - INFO - 正在启动浏览器: test001 (ID: kr4f5wg)
+2024-12-13 11:44:04,904 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:61036",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4f5wg",
+  "debug_port": "61036",
+  "puppeteer_ws": "ws://127.0.0.1:61036/devtools/browser/4e3fb3f1-42fd-40f1-af2b-6a9efdc61309"
+}
+2024-12-13 11:44:04,906 - ERROR - 初始化ShopifyRegister失败: 必须提供browser_info或adspower_id
+2024-12-13 11:44:04,906 - INFO - 浏览器启动成功
+2024-12-13 11:44:04,907 - INFO - 处理商店时出错: 必须提供browser_info或adspower_id

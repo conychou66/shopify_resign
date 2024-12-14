@@ -1,0 +1,11 @@
+2024-12-13 09:59:04,742 - INFO - 程序启动
+2024-12-13 09:59:09,375 - ERROR - 处理商店时出错: 'AdsPowerController' object has no attribute 'start_browser_by_id'
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 98, in run
+    browser_info = self.adspower.start_browser_by_id(current_user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdsPowerController' object has no attribute 'start_browser_by_id'
+2024-12-13 09:59:09,376 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 09:59:09,379 - INFO - 处理商店时出错: 'AdsPowerController' object has no attribute 'start_browser_by_id'
+2024-12-13 09:59:09,403 - ERROR - 关闭AdsPower浏览器失败: 'AdsPowerController' object has no attribute 'stop_browser_by_id'
+2024-12-13 09:59:09,404 - INFO - 任务完成

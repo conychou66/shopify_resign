@@ -1,0 +1,20 @@
+2024-12-13 08:50:35,243 - INFO - 程序启动
+2024-12-13 08:50:39,470 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 08:50:39,471 - INFO - 正在检查API状态: http://local.adspower.net:50325/api/v1/state
+2024-12-13 08:50:39,479 - WARNING - API返回非200状态码: 404
+2024-12-13 08:50:41,479 - INFO - 第1次重试...
+2024-12-13 08:50:41,493 - WARNING - API返回非200状态码: 404
+2024-12-13 08:50:43,494 - INFO - 第2次重试...
+2024-12-13 08:50:43,506 - WARNING - API返回非200状态码: 404
+2024-12-13 08:50:43,507 - ERROR - 无法连接到AdsPower API，请检查以下内容：
+1. AdsPower是否已启动？
+2. API地址是否正确？当前地址: http://local.adspower.net:50325
+3. 是否可以在浏览器中访问 http://local.adspower.net:50325/api/v1/state
+4. 是否被防火墙阻止？
+5. AdsPower是否正常运行？
+2024-12-13 08:50:43,509 - INFO - 启动任务失败: 无法连接到AdsPower API，请检查以下内容：
+1. AdsPower是否已启动？
+2. API地址是否正确？当前地址: http://local.adspower.net:50325
+3. 是否可以在浏览器中访问 http://local.adspower.net:50325/api/v1/state
+4. 是否被防火墙阻止？
+5. AdsPower是否正常运行？

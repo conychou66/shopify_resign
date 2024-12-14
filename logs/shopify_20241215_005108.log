@@ -1,0 +1,36 @@
+2024-12-15 00:51:08,475 - INFO - 开始执行自动化流程...
+2024-12-15 00:51:08,669 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 00:51:08,790 - INFO - 正在启动浏览器: test002 (ID: kr6ys8f)
+2024-12-15 00:51:12,667 - INFO - 成功创建WebDriver实例
+2024-12-15 00:51:12,667 - INFO - 开始Gmail登录流程...
+2024-12-15 00:51:26,565 - INFO - 正在输入邮箱...
+2024-12-15 00:51:34,233 - INFO - 正在输入密码...
+2024-12-15 00:51:44,004 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:44,011 - INFO - 第1次快速检测未成功
+2024-12-15 00:51:45,015 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:45,023 - INFO - 第2次快速检测未成功
+2024-12-15 00:51:46,027 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:46,032 - INFO - 第3次快速检测未成功
+2024-12-15 00:51:46,032 - INFO - 快速检查未确认登录状态，进行完整检查...
+2024-12-15 00:51:46,035 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:48,093 - INFO - 第1次完整检测未成功
+2024-12-15 00:51:49,096 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:51,170 - INFO - 第2次完整检测未成功
+2024-12-15 00:51:52,174 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:54,243 - INFO - 第3次完整检测未成功
+2024-12-15 00:51:54,243 - INFO - 登录流程完成，等待5秒后进行最终状态检查...
+2024-12-15 00:51:59,246 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:51:59,255 - INFO - 第1次快速检测未成功
+2024-12-15 00:52:00,259 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:52:00,265 - INFO - 第2次快速检测未成功
+2024-12-15 00:52:01,268 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:52:01,274 - INFO - 第3次快速检测未成功
+2024-12-15 00:52:01,274 - INFO - 快速检查未确认登录状态，进行完整检查...
+2024-12-15 00:52:01,277 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:52:03,331 - INFO - 第1次完整检测未成功
+2024-12-15 00:52:04,334 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:52:06,390 - INFO - 第2次完整检测未成功
+2024-12-15 00:52:07,393 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:52:09,448 - INFO - 第3次完整检测未成功
+2024-12-15 00:52:09,448 - ERROR - 最终登录状态检查失败
+2024-12-15 00:52:11,476 - ERROR - Gmail登录失败

@@ -1,0 +1,59 @@
+2024-12-15 02:11:33,379 - INFO - 开始执行自动化流程...
+2024-12-15 02:11:33,573 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 02:11:33,700 - INFO - 正在启动浏览器: test002 (ID: kr73et2)
+2024-12-15 02:11:37,421 - INFO - 成功创建WebDriver实例
+2024-12-15 02:11:37,421 - INFO - 开始Gmail登录流程...
+2024-12-15 02:11:46,553 - INFO - 正在输入邮箱...
+2024-12-15 02:11:50,063 - INFO - 等待密码输入页面...
+2024-12-15 02:11:52,650 - INFO - 正在输入密码...
+2024-12-15 02:12:02,395 - INFO - 开始第1次页面状态检测...
+2024-12-15 02:12:06,550 - INFO - 检测到辅助邮箱确认选项: //div[contains(@class, 'l5PPKe') and contains(text(), 'Confirm your recovery email')]
+2024-12-15 02:12:06,552 - INFO - 检测到'Verify it's you'页面，点击'Confirm your recovery email'...
+2024-12-15 02:12:08,641 - INFO - 等待辅助邮箱输入框...
+2024-12-15 02:12:09,885 - INFO - 已输入辅助邮箱: surbakti.dmalayah8653@hotmail.com
+2024-12-15 02:12:10,938 - INFO - 已提交辅助邮箱
+2024-12-15 02:12:13,939 - INFO - 检查登录状态...
+2024-12-15 02:12:13,942 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 02:12:24,469 - INFO - 通过Cookie检测到登录成功
+2024-12-15 02:12:24,470 - INFO - 检测到已成功登录
+2024-12-15 02:12:26,503 - INFO - Gmail登录成功，重新连接浏览器...
+2024-12-15 02:12:26,504 - INFO - 尝试重新连接到浏览器...
+2024-12-15 02:12:27,105 - INFO - 成功重新连接到浏览器
+2024-12-15 02:12:27,109 - INFO - 浏览器重连成功
+2024-12-15 02:12:27,110 - INFO - 开始Shopify注册流程...
+2024-12-15 02:12:27,115 - INFO - 开始Shopify注册流程...
+2024-12-15 02:12:31,548 - INFO - 已打开Shopify注册页面: https://www.shopify.com/free-trial
+2024-12-15 02:12:34,581 - INFO - 找到'Start free trial'按钮
+2024-12-15 02:12:40,882 - INFO - 已点击'Start free trial'按钮
+2024-12-15 02:12:43,050 - INFO - 等待Cloudflare验证...
+2024-12-15 02:12:43,232 - INFO - 等待Cloudflare验证...
+2024-12-15 02:13:00,488 - INFO - Cloudflare验证通过，已进入注册页面
+2024-12-15 02:13:03,489 - INFO - Cloudflare验证完成
+2024-12-15 02:13:03,490 - INFO - 等待注册表单加载...
+2024-12-15 02:14:10,706 - ERROR - 填写注册表单失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 02:14:10,709 - ERROR - Shopify注册失败

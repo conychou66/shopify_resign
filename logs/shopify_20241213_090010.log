@@ -1,0 +1,11 @@
+2024-12-13 09:00:10,345 - INFO - 程序启动
+2024-12-13 09:00:15,535 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 09:00:16,207 - ERROR - 处理商店出错
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 59, in run
+    browser_info = self.adspower.open_browser(adspower_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdsPowerController' object has no attribute 'open_browser'. Did you mean: 'stop_browser'?
+2024-12-13 09:00:16,208 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 09:00:16,210 - INFO - 处理商店时出错: 'AdsPowerController' object has no attribute 'open_browser'
+2024-12-13 09:00:16,212 - INFO - 任务完成

@@ -1,0 +1,38 @@
+2024-12-13 10:11:52,387 - INFO - 程序启动
+2024-12-13 10:11:57,052 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:11:57,053 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:12:00,202 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "http://127.0.0.1:53809",
+  "debug_port": "53809",
+  "user_id": "kr47af7",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "puppeteer_ws": "ws://127.0.0.1:53809/devtools/browser/f17e7596-17ad-4298-86cd-af5b5671f64c"
+}
+2024-12-13 10:12:00,208 - ERROR - 连接到浏览器失败: object of type 'int' has no len()
+2024-12-13 10:12:00,209 - ERROR - selenium_address: http://127.0.0.1:53809
+2024-12-13 10:12:00,210 - ERROR - 详细错误信息:
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\browser\adspower.py", line 186, in start_browser_by_id
+    self.driver = webdriver.Remote(
+                  ~~~~~~~~~~~~~~~~^
+        command_executor=selenium_address,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        options=options
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 241, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 329, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 168, in check_response
+    if len(value) == 1:
+       ~~~^^^^^^^
+TypeError: object of type 'int' has no len()
+2024-12-13 10:12:00,217 - INFO - 浏览器 kr47af7 已经关闭
+2024-12-13 10:12:00,218 - INFO - 任务完成

@@ -1,0 +1,23 @@
+2024-12-13 11:52:03,450 - INFO - 程序启动
+2024-12-13 11:52:07,240 - INFO - 正在启动浏览器，user_id: kr4f5wg
+2024-12-13 11:52:07,240 - INFO - 正在启动环境: test001 (ID: kr4f5wg)
+2024-12-13 11:52:10,233 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:61562",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4f5wg",
+  "debug_port": "61562",
+  "puppeteer_ws": "ws://127.0.0.1:61562/devtools/browser/5cf4fd92-cdb5-4d59-a352-9af36acc2692"
+}
+2024-12-13 11:52:10,760 - INFO - 开始Google账号登录...
+2024-12-13 11:52:18,427 - INFO - 正在输入邮箱...
+2024-12-13 11:52:24,011 - INFO - 正在输入密码...
+2024-12-13 11:52:41,303 - INFO - 通过欢迎文本检测到登录成功
+2024-12-13 11:52:43,335 - INFO - Google账号登录成功
+2024-12-13 11:52:43,335 - INFO - 开始Shopify注册流程...
+2024-12-13 11:52:47,341 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA71F5CC30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c1dc850cc3613b9dee2ddb363f731eb2/url
+2024-12-13 11:52:51,346 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA71F75B50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c1dc850cc3613b9dee2ddb363f731eb2/url
+2024-12-13 11:52:55,351 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA71F7CAF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c1dc850cc3613b9dee2ddb363f731eb2/url
+2024-12-13 11:52:59,357 - ERROR - Shopify注册失败: HTTPConnectionPool(host='localhost', port=61581): Max retries exceeded with url: /session/c1dc850cc3613b9dee2ddb363f731eb2/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA71F7CE20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-13 11:52:59,357 - ERROR - Shopify注册失败
+2024-12-13 11:52:59,359 - INFO - 商店 Handle Financial, Inc. 注册失败
+2024-12-13 11:53:03,365 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA71F7D150>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c1dc850cc3613b9dee2ddb363f731eb2

@@ -1,0 +1,30 @@
+2024-12-13 11:31:19,715 - INFO - 程序启动
+2024-12-13 11:31:24,273 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:31:24,379 - INFO - 浏览器 kr4eoh4 状态: 未运行
+2024-12-13 11:31:24,380 - INFO - 正在启动浏览器，user_id: kr4eoh4
+2024-12-13 11:31:24,381 - INFO - 正在启动浏览器: test001 (ID: kr4eoh4)
+2024-12-13 11:31:28,176 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:60052",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4eoh4",
+  "debug_port": "60052",
+  "puppeteer_ws": "ws://127.0.0.1:60052/devtools/browser/e812f24e-fe0c-40be-a316-2ea2d4c3b713"
+}
+2024-12-13 11:31:28,181 - INFO - 正在启动浏览器，user_id: kr4eoh4
+2024-12-13 11:31:28,182 - INFO - 浏览器启动成功
+2024-12-13 11:31:28,704 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:60052",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4eoh4",
+  "debug_port": "60052",
+  "puppeteer_ws": "ws://127.0.0.1:60052/devtools/browser/e812f24e-fe0c-40be-a316-2ea2d4c3b713"
+}
+2024-12-13 11:31:40,150 - INFO - 正在输入邮箱...
+2024-12-13 11:31:41,634 - INFO - 通过页面标题检测到登录成功
+2024-12-13 11:31:47,673 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619084160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61/url
+2024-12-13 11:31:51,679 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619084C00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61/url
+2024-12-13 11:31:55,682 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619084E20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61/url
+2024-12-13 11:31:59,717 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed
+2024-12-13 11:32:03,725 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619085150>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61
+2024-12-13 11:32:07,730 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619084F30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61
+2024-12-13 11:32:11,735 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D619084AF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2d3b868e55a0886f5baad8fa7187fc61

@@ -1,0 +1,49 @@
+2024-12-15 00:30:43,997 - INFO - 开始执行自动化流程...
+2024-12-15 00:30:44,216 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 00:30:44,358 - INFO - 正在启动浏览器: test002 (ID: kr6y21y)
+2024-12-15 00:30:47,544 - INFO - 成功创建WebDriver实例
+2024-12-15 00:30:47,544 - INFO - 开始Gmail登录流程...
+2024-12-15 00:30:56,539 - INFO - 正在输入邮箱...
+2024-12-15 00:31:04,162 - INFO - 正在输入密码...
+2024-12-15 00:31:07,658 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:31:21,382 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:31:21,382 - INFO - 第1次快速检测登录成功
+2024-12-15 00:31:22,386 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:31:22,396 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:31:22,396 - INFO - 第2次快速检测登录成功
+2024-12-15 00:31:23,399 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:31:23,406 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:31:23,406 - INFO - 第3次快速检测登录成功
+2024-12-15 00:31:25,438 - INFO - Gmail登录成功，重新连接浏览器...
+2024-12-15 00:31:25,439 - INFO - 尝试重新连接到浏览器...
+2024-12-15 00:31:25,970 - INFO - 成功重新连接到浏览器
+2024-12-15 00:31:25,975 - INFO - 浏览器重连成功
+2024-12-15 00:31:25,975 - INFO - 开始Shopify注册流程...
+2024-12-15 00:31:25,980 - INFO - 开始Shopify注册流程...
+2024-12-15 00:32:54,386 - ERROR - 首页输入邮箱或点击Start free trial按钮失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 00:32:54,389 - ERROR - Shopify注册失败

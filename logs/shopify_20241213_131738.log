@@ -1,0 +1,22 @@
+2024-12-13 13:17:38,639 - INFO - 开始执行自动化流程...
+2024-12-13 13:17:38,868 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 13:17:38,964 - INFO - 正在启动浏览器: test002 (ID: kr4j7d0)
+2024-12-13 13:17:42,677 - INFO - 成功创建WebDriver实例
+2024-12-13 13:17:42,678 - INFO - 开始Gmail登录流程...
+2024-12-13 13:17:53,630 - INFO - 正在输入邮箱...
+2024-12-13 13:18:01,237 - INFO - 正在输入密码...
+2024-12-13 13:18:04,663 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:18:21,480 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:18:21,481 - INFO - 第1次快速检测登录成功
+2024-12-13 13:18:22,484 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:18:22,493 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:18:22,493 - INFO - 第2次快速检测登录成功
+2024-12-13 13:18:23,497 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:18:23,505 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:18:23,505 - INFO - 第3次快速检测登录成功
+2024-12-13 13:18:25,532 - INFO - Gmail登录成功，开始Shopify注册...
+2024-12-13 13:18:29,540 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022D51356030>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/52816c2d08c335b5d53c2171c709c1d0/url
+2024-12-13 13:18:33,545 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022D51357790>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/52816c2d08c335b5d53c2171c709c1d0/url
+2024-12-13 13:18:37,553 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022D513579B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/52816c2d08c335b5d53c2171c709c1d0/url
+2024-12-13 13:18:41,557 - ERROR - 浏览器连接已断开
+2024-12-13 13:18:41,557 - ERROR - Shopify注册失败

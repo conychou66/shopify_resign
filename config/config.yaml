@@ -1,0 +1,20 @@
+# 浏览器设置
+browser:
+  timeout: 10
+  retry_times: 3
+  sleep_range: [1, 3]
+
+# Adspower设置
+adspower:
+  api_host: "http://local.adspower.net:50325"
+
+# 验证码设置
+captcha:
+  max_attempts: 5
+  timeout: 60
+
+# 路径设置
+paths:
+  excel: "./data/stores.xlsx"
+  logs: "./logs"
+  reports: "./reports" 

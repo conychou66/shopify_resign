@@ -1,0 +1,5 @@
+2024-12-13 10:02:23,234 - INFO - 程序启动
+2024-12-13 10:02:28,046 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:02:28,049 - ERROR - 启动 AdsPower 失败: launch_args must be list string
+2024-12-13 10:02:28,050 - ERROR - 关闭AdsPower浏览器失败: 'AdsPowerController' object has no attribute 'stop_browser_by_id'
+2024-12-13 10:02:28,050 - INFO - 任务完成

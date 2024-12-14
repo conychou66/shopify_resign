@@ -1,0 +1,22 @@
+2024-12-13 12:53:34,098 - INFO - 开始执行自动化流程...
+2024-12-13 12:53:34,299 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 12:53:34,412 - INFO - 正在启动浏览器: test002 (ID: kr4i52u)
+2024-12-13 12:53:49,057 - INFO - 正在输入邮箱...
+2024-12-13 12:53:56,666 - INFO - 正在输入密码...
+2024-12-13 12:54:11,841 - INFO - 通过Cookie检测到登录成功
+2024-12-13 12:54:11,842 - INFO - 第1次检测登录成功
+2024-12-13 12:54:12,851 - INFO - 通过Cookie检测到登录成功
+2024-12-13 12:54:12,851 - INFO - 第2次检测登录成功
+2024-12-13 12:54:13,858 - INFO - 通过Cookie检测到登录成功
+2024-12-13 12:54:13,858 - INFO - 第3次检测登录成功
+2024-12-13 12:54:15,887 - INFO - Gmail登录成功
+2024-12-13 12:54:15,888 - INFO - 开始Shopify注册流程...
+2024-12-13 12:54:19,894 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D37C9D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9/url
+2024-12-13 12:54:23,900 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D37CB00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9/url
+2024-12-13 12:54:27,935 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D3072F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9/url
+2024-12-13 12:54:31,942 - ERROR - 处理商店时出错: HTTPConnectionPool(host='localhost', port=49441): Max retries exceeded with url: /session/762125c16a18a6f4d26e653f9d48ffc9/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D20F680>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-13 12:54:31,978 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed
+2024-12-13 12:54:31,978 - ERROR - Shopify注册失败
+2024-12-13 12:54:35,984 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D20FDF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9
+2024-12-13 12:54:39,990 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D398050>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9
+2024-12-13 12:54:43,994 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001191D398270>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/762125c16a18a6f4d26e653f9d48ffc9

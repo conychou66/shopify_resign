@@ -1,0 +1,50 @@
+2024-12-13 11:03:25,273 - INFO - 程序启动
+2024-12-13 11:03:36,454 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:03:36,650 - INFO - 浏览器 kr47af7 状态: 未运行
+2024-12-13 11:03:36,650 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 11:03:36,651 - INFO - 正在启动浏览器: test001 (ID: kr47af7)
+2024-12-13 11:03:40,243 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:57882",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "57882",
+  "puppeteer_ws": "ws://127.0.0.1:57882/devtools/browser/fd369933-8f79-442e-bf5f-437329993995"
+}
+2024-12-13 11:03:40,245 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 11:03:40,246 - INFO - 浏览器启动成功
+2024-12-13 11:03:40,770 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:57882",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "57882",
+  "puppeteer_ws": "ws://127.0.0.1:57882/devtools/browser/fd369933-8f79-442e-bf5f-437329993995"
+}
+2024-12-13 11:03:50,405 - INFO - 正在输入邮箱...
+2024-12-13 11:03:53,901 - INFO - 正在输入密码...
+2024-12-13 11:04:17,948 - ERROR - WebDriver错误: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-13 11:04:17,966 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed

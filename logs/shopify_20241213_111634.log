@@ -1,0 +1,24 @@
+2024-12-13 11:16:34,815 - INFO - 程序启动
+2024-12-13 11:16:39,119 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:16:39,228 - INFO - 浏览器 kr4e13c 状态: 未运行
+2024-12-13 11:16:39,229 - INFO - 正在启动浏览器，user_id: kr4e13c
+2024-12-13 11:16:39,230 - INFO - 正在启动浏览器: test001 (ID: kr4e13c)
+2024-12-13 11:16:43,073 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:59000",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4e13c",
+  "debug_port": "59000",
+  "puppeteer_ws": "ws://127.0.0.1:59000/devtools/browser/34e48e15-39e5-4d69-9289-c92767065434"
+}
+2024-12-13 11:16:43,075 - INFO - 正在启动浏览器，user_id: kr4e13c
+2024-12-13 11:16:43,075 - INFO - 浏览器启动成功
+2024-12-13 11:16:43,608 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:59000",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4e13c",
+  "debug_port": "59000",
+  "puppeteer_ws": "ws://127.0.0.1:59000/devtools/browser/34e48e15-39e5-4d69-9289-c92767065434"
+}
+2024-12-13 11:16:55,921 - INFO - 正在输入邮箱...
+2024-12-13 11:17:03,418 - ERROR - Google登录失败: WebDriverWait.until() got an unexpected keyword argument 'timeout'
+2024-12-13 11:17:03,435 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed

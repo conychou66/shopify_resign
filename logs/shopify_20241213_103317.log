@@ -1,0 +1,2 @@
+2024-12-13 10:33:17,028 - INFO - 程序启动
+2024-12-13 10:33:22,215 - INFO - 启动任务失败: 读取Excel文件失败: Excel文件缺少必要的列: browser_name, store_name, zip, country

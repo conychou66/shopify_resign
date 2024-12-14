@@ -1,0 +1,11 @@
+2024-12-13 10:19:29,786 - INFO - 程序启动
+2024-12-13 10:19:35,423 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:19:35,424 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:19:39,061 - ERROR - 处理商店时出错: 'AdsPowerController' object has no attribute 'check_browser_status'
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 103, in run
+    status = self.adspower.check_browser_status(current_user_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdsPowerController' object has no attribute 'check_browser_status'
+2024-12-13 10:19:39,062 - INFO - 处理商店时出错: 'AdsPowerController' object has no attribute 'check_browser_status'
+2024-12-13 10:19:39,104 - INFO - 任务完成

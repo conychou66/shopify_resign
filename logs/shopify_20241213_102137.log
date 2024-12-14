@@ -1,0 +1,13 @@
+2024-12-13 10:21:37,019 - INFO - 程序启动
+2024-12-13 10:21:42,123 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:21:42,124 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:21:45,886 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:54777",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "54777",
+  "puppeteer_ws": "ws://127.0.0.1:54777/devtools/browser/f2b7c428-b70a-49a9-bb23-e4dd4d8a3856"
+}
+2024-12-13 10:21:45,891 - INFO - 浏览器 kr47af7 状态: 运行中
+2024-12-13 10:21:57,100 - INFO - 商店 Handle Financial, Inc. 处理失败
+2024-12-13 10:21:59,179 - INFO - 任务完成

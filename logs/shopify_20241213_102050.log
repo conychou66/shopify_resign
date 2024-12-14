@@ -1,0 +1,18 @@
+2024-12-13 10:20:50,431 - INFO - 程序启动
+2024-12-13 10:20:54,764 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:20:54,764 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:20:58,358 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:54671",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "54671",
+  "puppeteer_ws": "ws://127.0.0.1:54671/devtools/browser/38dc28b6-ab47-41f9-b37e-0870c84496ad"
+}
+2024-12-13 10:20:58,363 - INFO - 浏览器 kr47af7 状态: 运行中
+2024-12-13 10:20:59,552 - ERROR - 处理商店时出错: ShopifyRegister.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 113, in run
+    register = ShopifyRegister(driver)
+TypeError: ShopifyRegister.__init__() takes 1 positional argument but 2 were given
+2024-12-13 10:20:59,553 - INFO - 处理商店时出错: ShopifyRegister.__init__() takes 1 positional argument but 2 were given
+2024-12-13 10:21:01,699 - INFO - 任务完成

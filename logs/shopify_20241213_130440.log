@@ -1,0 +1,39 @@
+2024-12-13 13:04:40,223 - INFO - 开始执行自动化流程...
+2024-12-13 13:04:40,413 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 13:04:40,531 - INFO - 正在启动浏览器: test002 (ID: kr4il1t)
+2024-12-13 13:04:43,895 - INFO - 开始Gmail登录流程...
+2024-12-13 13:04:52,878 - INFO - 正在输入邮箱...
+2024-12-13 13:05:00,487 - INFO - 正在输入密码...
+2024-12-13 13:05:03,887 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:14,642 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:05:14,642 - INFO - 第1次快速检测登录成功
+2024-12-13 13:05:15,646 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:15,656 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:05:15,656 - INFO - 第2次快速检测登录成功
+2024-12-13 13:05:16,660 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:16,675 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:05:16,675 - INFO - 第3次快速检测登录成功
+2024-12-13 13:05:18,712 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:22,717 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770533020>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:26,721 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770533350>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:30,729 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147705338A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:34,733 - ERROR - 获取Cookie失败: HTTPConnectionPool(host='localhost', port=50391): Max retries exceeded with url: /session/62e5322582e4386d36028330a75d2230/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770533AC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-13 13:05:34,734 - INFO - 第1次快速检测未成功
+2024-12-13 13:05:35,737 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:39,742 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770533DF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:43,750 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680050>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:47,755 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680270>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:05:51,763 - ERROR - 获取Cookie失败: HTTPConnectionPool(host='localhost', port=50391): Max retries exceeded with url: /session/62e5322582e4386d36028330a75d2230/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-13 13:05:51,763 - INFO - 第2次快速检测未成功
+2024-12-13 13:05:52,767 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:05:56,772 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680C00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:00,777 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680AF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:04,782 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147706808D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:08,788 - ERROR - 获取Cookie失败: HTTPConnectionPool(host='localhost', port=50391): Max retries exceeded with url: /session/62e5322582e4386d36028330a75d2230/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770680E20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-13 13:06:08,788 - INFO - 第3次快速检测未成功
+2024-12-13 13:06:08,788 - INFO - 快速检查未确认登录状态，进行完整检查...
+2024-12-13 13:06:08,791 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:06:12,799 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770681150>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:16,802 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770681370>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:20,807 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014770681590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/62e5322582e4386d36028330a75d2230/cookie
+2024-12-13 13:06:24,809 - ERROR - 获取Cookie失败: HTTPConnectionPool(host='localhost', port=50391): Max retries exceeded with url: /session/62e5322582e4386d36028330a75d2230/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147706817B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))

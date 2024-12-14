@@ -1,0 +1,66 @@
+2024-12-15 00:46:23,741 - INFO - 开始执行自动化流程...
+2024-12-15 00:46:23,941 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 00:46:24,045 - INFO - 正在启动浏览器: test002 (ID: kr6ys8f)
+2024-12-15 00:46:27,819 - INFO - 成功创建WebDriver实例
+2024-12-15 00:46:27,820 - INFO - 开始Gmail登录流程...
+2024-12-15 00:46:43,506 - INFO - 正在输入邮箱...
+2024-12-15 00:46:51,643 - INFO - 正在输入密码...
+2024-12-15 00:46:51,679 - ERROR - 粘贴文本失败: Message: element not interactable
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BD4D]
+	(No symbol) [0x00007FF774954DDC]
+	(No symbol) [0x00007FF77498682A]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF774951B77]
+	(No symbol) [0x00007FF774986A40]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 00:46:51,683 - ERROR - Google登录失败: Message: element not interactable
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BD4D]
+	(No symbol) [0x00007FF774954DDC]
+	(No symbol) [0x00007FF77498682A]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF774951B77]
+	(No symbol) [0x00007FF774986A40]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 00:46:53,718 - ERROR - Gmail登录失败

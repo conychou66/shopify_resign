@@ -1,0 +1,14 @@
+2024-12-13 11:40:42,540 - INFO - 程序启动
+2024-12-13 11:40:47,189 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:40:47,296 - INFO - 浏览器 kr4eoh4 状态: 未运行
+2024-12-13 11:40:47,298 - INFO - 正在启动浏览器，user_id: kr4eoh4
+2024-12-13 11:40:47,298 - INFO - 正在启动浏览器: test001 (ID: kr4eoh4)
+2024-12-13 11:40:50,554 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:60724",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4eoh4",
+  "debug_port": "60724",
+  "puppeteer_ws": "ws://127.0.0.1:60724/devtools/browser/6b9ee336-f2ab-46ca-bab4-98168406b438"
+}
+2024-12-13 11:40:50,556 - INFO - 浏览器启动成功
+2024-12-13 11:40:50,557 - INFO - 处理商店时出错: ShopifyRegister.__init__() missing 1 required positional argument: 'driver'

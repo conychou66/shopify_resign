@@ -1,0 +1,28 @@
+2024-12-13 11:25:41,726 - INFO - 程序启动
+2024-12-13 11:25:46,178 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:25:46,287 - INFO - 浏览器 kr4e13c 状态: 未运行
+2024-12-13 11:25:46,288 - INFO - 正在启动浏览器，user_id: kr4e13c
+2024-12-13 11:25:46,289 - INFO - 正在启动浏览器: test001 (ID: kr4e13c)
+2024-12-13 11:25:49,842 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:59577",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4e13c",
+  "debug_port": "59577",
+  "puppeteer_ws": "ws://127.0.0.1:59577/devtools/browser/24084011-e225-44ab-b25b-897da85ac792"
+}
+2024-12-13 11:25:49,843 - INFO - 正在启动浏览器，user_id: kr4e13c
+2024-12-13 11:25:49,844 - INFO - 浏览器启动成功
+2024-12-13 11:25:50,367 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:59577",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4e13c",
+  "debug_port": "59577",
+  "puppeteer_ws": "ws://127.0.0.1:59577/devtools/browser/24084011-e225-44ab-b25b-897da85ac792"
+}
+2024-12-13 11:26:01,600 - INFO - 正在输入邮箱...
+2024-12-13 11:26:11,802 - INFO - 正在输入密码...
+2024-12-13 11:27:53,544 - ERROR - 登录失败：未找到个人资料标识
+2024-12-13 11:27:55,589 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed
+2024-12-13 11:27:59,595 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F4CA44D10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/29a3d163ee4cccdfebb29adf6bbeb272
+2024-12-13 11:28:03,601 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F4CA45040>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/29a3d163ee4cccdfebb29adf6bbeb272
+2024-12-13 11:28:07,608 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F4CA45260>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/29a3d163ee4cccdfebb29adf6bbeb272

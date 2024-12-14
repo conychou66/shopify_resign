@@ -1,0 +1,9 @@
+2024-12-13 09:56:09,032 - INFO - 程序启动
+2024-12-13 09:56:13,766 - ERROR - 任务执行出错: 'AdsPowerController' object has no attribute 'get_browser_list'
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 65, in run
+    browser_list = self.adspower.get_browser_list()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdsPowerController' object has no attribute 'get_browser_list'
+2024-12-13 09:56:13,766 - INFO - 任务执行出错: 'AdsPowerController' object has no attribute 'get_browser_list'
+2024-12-13 09:56:13,769 - INFO - 任务完成

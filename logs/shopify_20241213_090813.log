@@ -1,0 +1,9 @@
+2024-12-13 09:08:13,313 - INFO - 程序启动
+2024-12-13 09:08:18,332 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 09:08:18,987 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 09:08:18,992 - ERROR - 获取环境列表失败: Too many request per second, please check
+2024-12-13 09:08:18,993 - ERROR - 未找到环境: test001
+2024-12-13 09:08:18,994 - INFO - 启动浏览器失败: test001
+2024-12-13 09:08:18,997 - ERROR - 获取环境列表失败: Too many request per second, please check
+2024-12-13 09:08:18,998 - ERROR - 未找到环境: test001
+2024-12-13 09:08:18,999 - INFO - 任务完成

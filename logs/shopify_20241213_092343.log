@@ -1,0 +1,17 @@
+2024-12-13 09:23:43,483 - INFO - 程序启动
+2024-12-13 09:23:47,883 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 09:23:49,076 - INFO - 获取到 100 个浏览器环境
+2024-12-13 09:23:49,246 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 09:23:53,052 - INFO - 浏览器启动成功，环境ID: kr47af7
+2024-12-13 09:23:55,067 - INFO - 浏览器状态: Active
+2024-12-13 09:23:56,081 - INFO - 浏览器状态: Active
+2024-12-13 09:23:56,081 - ERROR - 处理商店时出错: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 108, in run
+    driver = webdriver.Chrome(
+        executable_path=browser_info['webdriver']
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-12-13 09:23:56,083 - INFO - 处理商店时出错: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-12-13 09:23:57,088 - INFO - 浏览器已关闭，环境ID: kr47af7
+2024-12-13 09:23:57,089 - INFO - 任务完成

@@ -1,0 +1,50 @@
+2024-12-15 00:34:17,384 - INFO - 开始执行自动化流程...
+2024-12-15 00:34:17,577 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-15 00:34:17,689 - INFO - 正在启动浏览器: test002 (ID: kr6y6gs)
+2024-12-15 00:34:21,462 - INFO - 成功创建WebDriver实例
+2024-12-15 00:34:21,462 - INFO - 开始Gmail登录流程...
+2024-12-15 00:34:30,966 - INFO - 正在输入邮箱...
+2024-12-15 00:34:38,606 - INFO - 正在输入密码...
+2024-12-15 00:34:42,036 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:34:55,488 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:34:55,488 - INFO - 第1次快速检测登录成功
+2024-12-15 00:34:56,492 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:34:56,504 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:34:56,505 - INFO - 第2次快速检测登录成功
+2024-12-15 00:34:57,508 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-15 00:34:57,516 - INFO - 通过Cookie检测到登录成功
+2024-12-15 00:34:57,517 - INFO - 第3次快速检测登录成功
+2024-12-15 00:34:59,546 - INFO - Gmail登录成功，重新连接浏览器...
+2024-12-15 00:34:59,546 - INFO - 尝试重新连接到浏览器...
+2024-12-15 00:35:00,085 - INFO - 成功重新连接到浏览器
+2024-12-15 00:35:00,092 - INFO - 浏览器重连成功
+2024-12-15 00:35:00,092 - INFO - 开始Shopify注册流程...
+2024-12-15 00:35:00,097 - INFO - 开始Shopify注册流程...
+2024-12-15 00:37:08,228 - ERROR - 点击邮箱注册按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF77495E169]
+	(No symbol) [0x00007FF77495E52C]
+	(No symbol) [0x00007FF7749AB4C7]
+	(No symbol) [0x00007FF77498686F]
+	(No symbol) [0x00007FF774951CEC]
+	(No symbol) [0x00007FF7749A8BA5]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-15 00:37:08,231 - ERROR - Shopify注册失败

@@ -1,0 +1,4 @@
+2024-12-13 08:52:22,859 - INFO - 程序启动
+2024-12-13 08:52:32,399 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 08:52:33,074 - INFO - Excel文件缺少必要的列: adspower_name, business_name, email, password, recovery_email
+2024-12-13 08:52:33,075 - INFO - 任务完成

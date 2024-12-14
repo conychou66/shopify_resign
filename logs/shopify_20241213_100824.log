@@ -1,0 +1,29 @@
+2024-12-13 10:08:24,471 - INFO - 程序启动
+2024-12-13 10:08:29,304 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:08:29,304 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:08:32,501 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "http://127.0.0.1:53485",
+  "debug_port": "53485",
+  "user_id": "kr47af7",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "puppeteer_ws": "ws://127.0.0.1:53485/devtools/browser/e1a93f63-3d25-449e-82ac-78a82f5c1a38"
+}
+2024-12-13 10:08:32,502 - ERROR - 连接到浏览器失败: WebDriver.__init__() got an unexpected keyword argument 'service'
+2024-12-13 10:08:32,512 - ERROR - selenium_address: http://127.0.0.1:53485
+2024-12-13 10:08:32,513 - ERROR - webdriver_path: C:\Users\Administrator\AppData\Roaming\adspower_global\cwd_global\chrome_130\chromedriver.exe
+2024-12-13 10:08:32,513 - ERROR - 详细错误信息:
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\browser\adspower.py", line 188, in start_browser_by_id
+    self.driver = webdriver.Remote(
+                  ~~~~~~~~~~~~~~~~^
+        command_executor=selenium_address,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        options=chrome_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        service=service
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'service'
+2024-12-13 10:08:32,517 - INFO - 浏览器 kr47af7 已经关闭
+2024-12-13 10:08:32,518 - INFO - 任务完成

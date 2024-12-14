@@ -1,0 +1,11 @@
+2024-12-13 12:02:06,831 - INFO - 程序启动
+2024-12-13 12:02:11,941 - INFO - 正在启动浏览器: test001 (ID: kr4fpy8)
+2024-12-13 12:02:15,837 - INFO - 开始Google账号登录...
+2024-12-13 12:02:29,417 - INFO - 正在输入邮箱...
+2024-12-13 12:02:32,913 - INFO - 正在输入密码...
+2024-12-13 12:04:16,892 - ERROR - 等待下一步超时（100秒）
+2024-12-13 12:04:18,920 - ERROR - Google账号登录失败
+2024-12-13 12:04:18,921 - INFO - 商店 Handle Financial, Inc. 注册失败
+2024-12-13 12:04:22,927 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D906B6E190>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/02888ef6dd94db9991c20e2d2929c593
+2024-12-13 12:04:26,937 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D906B6E780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/02888ef6dd94db9991c20e2d2929c593
+2024-12-13 12:04:30,943 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D906B839B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/02888ef6dd94db9991c20e2d2929c593

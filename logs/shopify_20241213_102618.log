@@ -1,0 +1,3 @@
+2024-12-13 10:26:18,374 - INFO - 程序启动
+2024-12-13 10:26:22,444 - ERROR - 处理商店时出错: 'ExcelHandler' object has no attribute 'get_next_store'
+2024-12-13 10:26:22,444 - INFO - 处理商店时出错: 'ExcelHandler' object has no attribute 'get_next_store'

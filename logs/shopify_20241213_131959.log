@@ -1,0 +1,53 @@
+2024-12-13 13:19:59,822 - INFO - 开始执行自动化流程...
+2024-12-13 13:20:00,013 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 13:20:00,121 - INFO - 正在启动浏览器: test002 (ID: kr4jast)
+2024-12-13 13:20:03,774 - INFO - 成功创建WebDriver实例
+2024-12-13 13:20:03,775 - INFO - 开始Gmail登录流程...
+2024-12-13 13:20:14,565 - INFO - 正在输入邮箱...
+2024-12-13 13:20:22,185 - INFO - 正在输入密码...
+2024-12-13 13:20:25,610 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:20:40,733 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:20:40,733 - INFO - 第1次快速检测登录成功
+2024-12-13 13:20:41,736 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:20:41,746 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:20:41,746 - INFO - 第2次快速检测登录成功
+2024-12-13 13:20:42,749 - ERROR - 检查AdsPower Cookie失败: Expecting value: line 1 column 1 (char 0)
+2024-12-13 13:20:42,756 - INFO - 通过Cookie检测到登录成功
+2024-12-13 13:20:42,757 - INFO - 第3次快速检测登录成功
+2024-12-13 13:20:44,785 - INFO - Gmail登录成功，重新连接浏览器...
+2024-12-13 13:20:44,786 - INFO - 尝试重新连接到浏览器...
+2024-12-13 13:20:45,326 - INFO - 成功重新连接到浏览器
+2024-12-13 13:20:45,331 - INFO - 浏览器重连成功
+2024-12-13 13:20:45,331 - INFO - 开始Shopify注册流程...
+2024-12-13 13:20:45,342 - INFO - Google登录状态有效
+2024-12-13 13:20:45,342 - INFO - 开始Shopify注册流程...
+2024-12-13 13:21:03,482 - INFO - 点击Start free trial按钮...
+2024-12-13 13:21:12,541 - INFO - 等待Cloudflare验证...
+2024-12-13 13:21:32,897 - INFO - Cloudflare验证通过
+2024-12-13 13:22:35,036 - ERROR - 点击'Sign up with Google'按钮失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774DE4175+51477]
+	(No symbol) [0x00007FF774C1A170]
+	(No symbol) [0x00007FF77490BECB]
+	(No symbol) [0x00007FF7748E0774]
+	(No symbol) [0x00007FF7749903DF]
+	(No symbol) [0x00007FF7749A8150]
+	(No symbol) [0x00007FF7749864E3]
+	(No symbol) [0x00007FF774950EC0]
+	(No symbol) [0x00007FF77494FA9B]
+	(No symbol) [0x00007FF77495091A]
+	GetHandleVerifier [0x00007FF774E0441E+183230]
+	sqlite3_dbdata_init [0x00007FF7750612AB+1457739]
+	sqlite3_dbdata_init [0x00007FF775060C24+1456068]
+	sqlite3_dbdata_init [0x00007FF77505A499+1429561]
+	sqlite3_dbdata_init [0x00007FF775061BA4+1460036]
+	(No symbol) [0x00007FF774C3368B]
+	(No symbol) [0x00007FF774C258F4]
+	(No symbol) [0x00007FF774C25A8B]
+	(No symbol) [0x00007FF774C0978C]
+	BaseThreadInitThunk [0x00007FF8EF994CB0+16]
+	RtlUserThreadStart [0x00007FF8F199EDCB+43]
+
+2024-12-13 13:22:35,045 - ERROR - Shopify注册失败

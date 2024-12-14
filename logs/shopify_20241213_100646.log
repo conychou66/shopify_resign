@@ -1,0 +1,15 @@
+2024-12-13 10:06:46,186 - INFO - 程序启动
+2024-12-13 10:06:50,655 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:06:50,656 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: kr47af7)
+2024-12-13 10:06:53,933 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "http://127.0.0.1:53313",
+  "debug_port": "53313",
+  "user_id": "kr47af7",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "puppeteer_ws": "ws://127.0.0.1:53313/devtools/browser/e385b8ab-e10e-4dcf-aedc-8dce70d54854"
+}
+2024-12-13 10:06:53,937 - ERROR - 连接到浏览器失败: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2024-12-13 10:06:53,939 - ERROR - selenium_address: http://127.0.0.1:53313
+2024-12-13 10:06:53,939 - ERROR - capabilities: {'browserName': 'chrome', 'platformName': 'windows', 'goog:chromeOptions': {'args': ['--no-sandbox', '--disable-gpu']}}
+2024-12-13 10:06:53,940 - INFO - 浏览器 kr47af7 已经关闭
+2024-12-13 10:06:53,941 - INFO - 任务完成

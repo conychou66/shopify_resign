@@ -1,0 +1,14 @@
+2024-12-13 11:41:48,335 - INFO - 程序启动
+2024-12-13 11:41:52,414 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 11:41:52,495 - INFO - 浏览器 kr4eoh4 状态: 未运行
+2024-12-13 11:41:52,496 - INFO - 正在启动浏览器，user_id: kr4eoh4
+2024-12-13 11:41:52,496 - INFO - 正在启动浏览器: test001 (ID: kr4eoh4)
+2024-12-13 11:41:55,684 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:60834",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr4eoh4",
+  "debug_port": "60834",
+  "puppeteer_ws": "ws://127.0.0.1:60834/devtools/browser/e4b971bf-3b47-4187-a855-8656a49b1e43"
+}
+2024-12-13 11:41:55,686 - INFO - 浏览器启动成功
+2024-12-13 11:41:55,687 - INFO - 处理商店时出错: 必须提供driver或有效的adspower_id

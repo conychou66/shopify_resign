@@ -1,0 +1,9 @@
+2024-12-13 10:00:41,052 - INFO - 程序启动
+2024-12-13 10:00:46,929 - ERROR - 处理商店时出错: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "e:\soft\121301\shopify_register\core\ui\main_window.py", line 86, in run
+    if browser["name"] == excel_browser_name:
+       ~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-12-13 10:00:46,930 - INFO - 处理商店时出错: string indices must be integers, not 'str'
+2024-12-13 10:00:46,932 - INFO - 任务完成

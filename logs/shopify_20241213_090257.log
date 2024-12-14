@@ -1,0 +1,9 @@
+2024-12-13 09:02:57,180 - INFO - 程序启动
+2024-12-13 09:03:02,087 - INFO - 正在初始化AdsPower控制器，API地址: http://local.adspower.net:50325
+2024-12-13 09:03:02,771 - INFO - 正在启动浏览器环境: test001
+2024-12-13 09:03:02,771 - INFO - 开始处理商店: Handle Financial, Inc.
+2024-12-13 09:03:02,775 - ERROR - 启动浏览器失败: Require user_id or serial_number
+2024-12-13 09:03:02,776 - INFO - 正在关闭浏览器环境: test001
+2024-12-13 09:03:02,776 - INFO - 启动浏览器失败: test001
+2024-12-13 09:03:02,780 - ERROR - 关闭浏览器失败: Require user_id or serial_number
+2024-12-13 09:03:02,781 - INFO - 任务完成

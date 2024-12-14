@@ -1,0 +1,24 @@
+2024-12-13 10:58:08,482 - INFO - 程序启动
+2024-12-13 10:58:14,562 - INFO - 开始处理商店: Handle Financial, Inc. (环境ID: test001)
+2024-12-13 10:58:14,681 - INFO - 浏览器 kr47af7 状态: 未运行
+2024-12-13 10:58:14,682 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:58:14,682 - INFO - 正在启动浏览器: test001 (ID: kr47af7)
+2024-12-13 10:58:18,097 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:57551",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "57551",
+  "puppeteer_ws": "ws://127.0.0.1:57551/devtools/browser/54e0c9e8-1589-43bb-b115-d5d7c991af0f"
+}
+2024-12-13 10:58:18,099 - INFO - 正在启动浏览器，user_id: kr47af7
+2024-12-13 10:58:18,099 - INFO - 浏览器启动成功
+2024-12-13 10:58:18,632 - INFO - 浏览器启动成功，信息: {
+  "selenium_address": "127.0.0.1:57551",
+  "webdriver": "C:\\Users\\Administrator\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_130\\chromedriver.exe",
+  "user_id": "kr47af7",
+  "debug_port": "57551",
+  "puppeteer_ws": "ws://127.0.0.1:57551/devtools/browser/54e0c9e8-1589-43bb-b115-d5d7c991af0f"
+}
+2024-12-13 10:58:28,168 - INFO - 正在输入邮箱...
+2024-12-13 10:59:00,899 - ERROR - 未能进入密码输入页面
+2024-12-13 10:59:00,916 - INFO - 已更新商店 Handle Financial, Inc. 的状态为: failed
